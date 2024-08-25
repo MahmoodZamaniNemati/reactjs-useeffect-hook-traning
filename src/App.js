@@ -8,7 +8,7 @@ function App() {
   const handeleButtonStatus = () => {
     setButtonStatus(!buttonStatus);
   }
-  return (
+  return ( 
     <div className="App">
       <button onClick={handeleButtonStatus}>Show Form</button>
       { buttonStatus && <Form />}

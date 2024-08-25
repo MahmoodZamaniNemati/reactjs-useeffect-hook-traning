@@ -6,7 +6,7 @@ export const Form = () => {
         return () => {
             console.log("component unmount")
         }
-    }, [])
+    }, []) 
     useEffect(() => {
         console.log("component update")
     }, ["text"])
